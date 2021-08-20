@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 25rem;
+  height: 90vh;
+  max-height: 35rem;
+  min-height: 400px;
+  margin: 30px auto;
+  background-color: lightslategray;
+  box-shadow: 5px 11px 15px 4px rgba(0, 0, 0, 0.39);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1rem;
+  align-items: center;
+  background-color: silver;
+  color: #fff;
+}
+
+.title-icon {
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-right: 3rem;
+}
+
+header .all {
+  margin: 0;
+}
+
+.list-box {
+  padding: 20px;
+  height: 50vh;
+  min-height: 300px;
+  overflow: auto;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 26rem;
+  height: 3rem;
+  padding: 0 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: dimgray;
+  margin: 10px auto;
+}
+
+.list-name {
+  width: 60%;
+  font-size: 1rem;
+}
+
+.list-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: royalblue;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  border-radius: 6px;
+}
+
+.btn {
+  color: #fff;
+  background-color: lightblue;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2px;
+  border-radius: 6px;
+  transition: all 250ms ease-in-out;
+}
+
+.count-minus {
+  margin-right: 6px;
+}
+
+.count-plus:hover {
+  background-color: lightseagreen;
+}
+
+.count-minus:hover {
+  background-color: orange;
+}
+
+.list-delete:hover {
+  background-color: mediumvioletred;
+}
+
+.btn-module {
+  color: #fff;
+  font-weight: 700;
+  background-color: lightblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-size: 300% 100%;
+}
+
+.btn-module:hover {
+  background-position: 100% 0;
+
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #40e495,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.add-form {
+  position: absolute;
+  bottom: 0;
+  margin: 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.list-input {
+  width: 60%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.list-add-btn {
+  width: 100px;
+}
